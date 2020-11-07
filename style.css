@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+    text-align: center;
+    font-weight: 900;
+    margin: 50px;
+    text-transform: uppercase;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2{
+    text-transform: uppercase;
+    font-weight: 800;
+    text-align: center;
+}
+
+.results{
+    display: flex;
+}
+
+.results div{
+    margin: 20px 50px;
+    text-align: center;
+}
+
+.results h3{
+    font-weight: bold;
+}
+
+.results p{
+    font-size: 1.5em;
+}
+
+h3{
+    text-transform: uppercase;
+    text-align: center; 
+    font-weight: 800;
+}
+
+sup{
+    font-size: 0.5em;
+    color: #333333;
+    font-weight: 800;
+}
+
+h4{
+    text-align: center;
+}
+
+.game{
+    display: flex;
+    margin-top: 20px;
+}
+
+.user-img, .comp-img{
+    width: 150px;
+}
+
+.user-img img, .comp-img img{
+    width: 100%;
+}
+
+.select{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+   
+}
+
+.round-img{
+    background-color: black;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin: 20px 50px;
+    cursor: pointer;
+}
+
+.round-img:hover{
+    background-color: #333333;
+}
+
+.round-img img{
+    width: 80px;
+    height: 80%;
+    margin-top: 10px;
+}
